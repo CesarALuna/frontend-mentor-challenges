@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+/* 
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 15px
+
+*/
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: hsl(212, 45%, 89%);
+  width: 100%;
+  padding: 10vh;
+  align-items: center;
+}
+
+.qr-card {
+  background-color: hsl(0, 0%, 100%);
+  width: 350px;
+  font-size: 22px;
+  padding: 15px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+#qr-image {
+  border-radius: 10px;
+}
+
+#headline {
+  font-weight: 700;
+  padding: 10px;
+  text-align: center;
+}
+
+#text {
+  font-weight: 400;
+  font-size: 18px;
+  color: hsl(220, 15%, 55%);
+  padding: 12px;
+  text-align: center;
+}
+
+.attribution {
+  text-align: center;
+  margin-top: 220px;
